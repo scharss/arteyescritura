@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/inicio"
+        android:title="@string/btninicio" />
+    <item
+        android:id="@+id/quienessomos"
+        android:title="@string/btnquienes" />
+    <item
+        android:id="@+id/servicios"
+        android:title="@string/btnservicios" />
+    <item
+        android:id="@+id/contactar"
+        android:title="@string/btncontactar" />
+    <item
+        android:id="@+id/noticias"
+        android:title="@string/btnnoticias" />
+    <item
+        android:id="@+id/pagos"
+        android:orderInCategory="100"
+        android:title="@string/btnpagos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/donaciones"
+        android:title="@string/btndonaciones" />
+</menu>

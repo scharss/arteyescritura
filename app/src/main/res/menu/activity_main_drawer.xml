@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/btninicio" />
+        <item
+            android:id="@+id/nav_quienes"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/btnquienes" />
+        <item
+            android:id="@+id/nav_servicios"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/btnservicios" />
+        <item
+            android:id="@+id/nav_contactar"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/btncontactar" />
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/btnnoticias" />
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_donaciones"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="@string/btndonaciones" />
+            <item
+                android:id="@+id/nav_pagos"
+                android:icon="@android:drawable/ic_menu_mapmode"
+                android:title="@string/btnpagos" />
+        </menu>
+    </item>
+
+</menu>
